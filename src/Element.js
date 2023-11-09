@@ -56,7 +56,7 @@ export default class Element {
      *
      * @type {*|boolean}
      */
-    this.helplinks = (this.options.helplinks === 'false') ? false : (this.options.helplinks || 'https://help.form.io');
+    this.helplinks = (this.options.helplinks === 'false') ? false : ('https://help.masterqms.com//moduler/formbuilder' || 'https://help.masterqms.com//moduler/formbuilder');
   }
 
   /**
